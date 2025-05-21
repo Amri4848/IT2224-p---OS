@@ -1,0 +1,87 @@
+{ ~ }  » cal                                                                             ~
+     April 2025
+Su Mo Tu We Th Fr Sa
+       1  2  3  4  5
+ 6  7  8  9 10 11 12
+13 14 15 16 17 18 19
+20 21 22 23 24 25 26
+27 28 29 30
+
+{ ~ }  » pwd                                                                             ~
+/home/DELL
+{ ~ }  » ls                                                                              ~
+astrology      calculator.sh    fact.sh            marks.sh       program1.sh   Q3.sh
+astrology.sh   calculator.sh~   fibonacci.sh       multable.sh    program1.sh~  sumAndmul.sh
+astrology.sh~  day.sh           fibonacci.sh~      multiple.sh    program2.sh   username.sh
+bin            employee.csv     greaterORless.sh   nestedLoop.sh  Q1.sh         username.sh~
+cal.sh         employeeNew.csv  greaterORless.sh~  pattern.sh     Q2.sh         while.sh
+{ ~ }  » ls -a                                                                           ~
+.                      .multable.sh.un~    .zcompdump-SAJA-1109-5.0.6  greaterORless.sh~
+..                     .multiple.sh.un~    .zsh_history                marks.sh
+.astrology.sh.un~      .nestedLoop.sh.un~  .zshrc                      multable.sh
+.babunrc               .oh-my-zsh          .zsh-update                 multiple.sh
+.bash_profile          .pact               astrology                   nestedLoop.sh
+.bashrc                .pattern.sh.un~     astrology.sh                pattern.sh
+.cal.sh.un~            .profile            astrology.sh~               program1.sh
+.calculator.sh.un~     .program1.sh.un~    bin                         program1.sh~
+.day.sh.un~            .program2.sh.un~    cal.sh                      program2.sh
+.employee.csv.un~      .Q1.sh.un~          calculator.sh               Q1.sh
+.fact.sh.un~           .Q2.sh.un~          calculator.sh~              Q2.sh
+.fibonacci.sh.un~      .Q3.sh.un~          day.sh                      Q3.sh
+.gitconfig             .sumAndmul.sh.un~   employee.csv                sumAndmul.sh
+.greaterORless.sh.un~  .username.sh.un~    employeeNew.csv             username.sh
+.inputrc               .vim                fact.sh                     username.sh~
+.local                 .viminfo            fibonacci.sh                while.sh
+.marks.sh.un~          .while.sh.un~       fibonacci.sh~
+.minttyrc              .zcompdump          greaterORless.sh
+{ ~ }  » ls -ltr                                                                         ~
+total 35
+lrwxrwxrwx  1 DELL None   21 Apr 28 22:30 bin -> /home/DELL/.local/bin
+-rw-rwxr--+ 1 DELL None    1 Apr 29 01:00 program1.sh~
+-rwxrwxrwx+ 1 DELL None  199 Apr 29 01:04 program1.sh
+-rwxrwxrwx+ 1 DELL None  233 Apr 29 01:07 program2.sh
+-rw-rwxr--+ 1 DELL None  305 Apr 29 01:11 employee.csv
+-rw-rwxr--+ 1 DELL None  102 Apr 29 01:19 employeeNew.csv
+-rw-rwxr--+ 1 DELL None 3091 Apr 29 01:26 cal.sh
+-rwxrwxrwx+ 1 DELL None  268 Apr 29 01:34 calculator.sh~
+-rwxrwxrwx+ 1 DELL None  268 Apr 29 01:37 calculator.sh
+-rwxrwxrwx+ 1 DELL None  269 Apr 29 01:42 marks.sh
+-rwxrwxrwx+ 1 DELL None  213 Apr 29 01:47 day.sh
+-rwxrwxrwx+ 1 DELL None  154 Apr 29 01:50 username.sh~
+-rwxrwxrwx+ 1 DELL None  154 Apr 29 01:51 username.sh
+-rwxrwxrwx+ 1 DELL None  172 Apr 29 01:55 greaterORless.sh~
+-rwxrwxrwx+ 1 DELL None  173 Apr 29 01:56 greaterORless.sh
+-rw-rwxr--+ 1 DELL None    0 Apr 29 02:00 astrology
+-rw-rwxr--+ 1 DELL None  591 Apr 29 02:03 astrology.sh~
+-rwxrwxrwx+ 1 DELL None  591 Apr 29 02:03 astrology.sh
+-rwxrwxrwx+ 1 DELL None  241 Apr 29 02:06 sumAndmul.sh
+-rwxrwxrwx+ 1 DELL None   59 Apr 29 02:09 while.sh
+-rwxrwxrwx+ 1 DELL None  173 Apr 29 02:10 nestedLoop.sh
+-rwxrwxrwx+ 1 DELL None  145 Apr 29 02:14 Q2.sh
+-rwxrwxrwx+ 1 DELL None   59 Apr 29 02:16 Q1.sh
+-rwxrwxrwx+ 1 DELL None  765 Apr 29 02:18 Q3.sh
+-rwxrwxrwx+ 1 DELL None  124 Apr 29 02:21 fibonacci.sh~
+-rwxrwxrwx+ 1 DELL None  151 Apr 29 02:24 fibonacci.sh
+-rwxrwxrwx+ 1 DELL None  123 Apr 29 02:27 fact.sh
+-rwxrwxrwx+ 1 DELL None  118 Apr 29 02:28 multiple.sh
+-rwxrwxrwx+ 1 DELL None  141 Apr 29 02:31 multable.sh
+-rwxrwxrwx+ 1 DELL None  365 Apr 29 02:33 pattern.sh
+{ ~ }  » date+%d                                                                         ~
+zsh: command not found: date+%d
+{ ~ }  » date +%d                                                                    ~ 127
+29
+{ ~ }  » date +%y                                                                        ~
+25
+{ ~ }  » date +%A                                                                        ~
+Tuesday
+{ ~ }  » date +%a                                                                        ~
+Tue
+{ ~ }  » date +%B                                                                        ~
+April
+{ ~ }  » date +%b                                                                        ~
+Apr
+{ ~ }  » date +%m                                                                        ~
+04
+{ ~ }  » date +%M                                                                        ~
+28
+{ ~ }  »        
