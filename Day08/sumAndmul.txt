@@ -1,0 +1,13 @@
+echo "Enter a list of numbers separated by spaces:"
+read -a numbers
+
+sum=0
+product=1
+
+for num in "${numbers[@]}"; do
+    sum=$((sum + num))
+    product=$((product * num))
+done
+
+echo "Summation: $sum"
+echo "Multiplication: $product"

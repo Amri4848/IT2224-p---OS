@@ -1,0 +1,21 @@
+echo "Enter your birth date (as a number, e.g., 15 for 15th):"
+read date
+
+# Calculate life path number
+a=$((date % 10))
+b=$((date / 10))
+c=$((a + b))
+
+# Astrology message
+case $c in
+    1) echo "Your life path number is 1: Lucky" ;;
+    2) echo "Your life path number is 2: Carefully do your work" ;;
+    3) echo "Your life path number is 3: Stronger" ;;
+    4) echo "Your life path number is 4: Happy" ;;
+    5) echo "Your life path number is 5: Can get help" ;;
+    6) echo "Your life path number is 6: Doubt" ;;
+    7) echo "Your life path number is 7: Sad" ;;
+    8) echo "Your life path number is 8: Like" ;;
+    9) echo "Your life path number is 9: Courage" ;;
+    *) echo "Invalid input!" ;;
+esac
